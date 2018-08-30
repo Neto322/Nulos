@@ -12,9 +12,9 @@ namespace Nulo
         public string marca { get; set; }
         public int kilometraje { get; set; }
         public Dueño midueño { get; set; }
-    public void encender()
+        public void encender()
         {
-
+           
         }
     }
 }

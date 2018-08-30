@@ -15,6 +15,9 @@ namespace Nulo
             Micarro.kilometraje = 100000;
             Console.WriteLine("Carro de marca " + Micarro.marca);
             Console.WriteLine("Kilometraje " + Micarro.kilometraje);
+            Micarro.midueño = new Dueño();
+            Micarro.midueño.nombre = "Benito Juarez de a 500";
+            Micarro.midueño = null;
             if (Micarro.midueño != null)
             {
                 Console.WriteLine("Dueño " + Micarro.midueño.nombre);
@@ -22,7 +25,7 @@ namespace Nulo
             {
                 Console.WriteLine("No hay dueño");
             }
-            Console.ReadLine();       
+            Console.ReadLine();
         }
     }
 }

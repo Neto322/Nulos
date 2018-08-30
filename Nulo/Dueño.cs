@@ -11,5 +11,6 @@ namespace Nulo
         public string nombre { get; set; }
         public string sexo { get; set; }
         public string Fnacimiento { get; set; }
+
     }
 }
